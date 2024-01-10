@@ -19,10 +19,11 @@ function App() {
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
   }, []);
-  
+
 
   return (
     <>
+      <div className='w1920'></div>
       <div className='data'>
         <p>window.width : {windowDimensions.width}</p>
         <p>window.height : {windowDimensions.height}</p>
@@ -31,11 +32,11 @@ function App() {
         1280px
       </div>
       <div className='aside'>
-        300x100
+        300x300
       </div>
-      <div className={'chat' + (windowDimensions.width < 1280 + 60 + 200 ? ' right' : '')}>
-        <p>100x100</p>
-        <p>가로스크롤 생기면 올라감</p>
+      <div className={'chat'}>
+        <div className='box1'>수업 들어가기</div>
+        <p className='box2'>챗봇</p>
       </div>
     </>
   )
