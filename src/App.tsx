@@ -34,7 +34,7 @@ function App() {
       <div className='aside'>
         250x300
       </div>
-      <div className={'chat'}>
+      <div className={'chat' + (windowDimensions.width <= 1920 ? ' right' : '')}>
         <div className='box1'>수업 들어가기</div>
         <p className='box2'>챗봇</p>
       </div>
