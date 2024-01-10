@@ -32,7 +32,7 @@ function App() {
         1280px
       </div>
       <div className='aside'>
-        300x300
+        250x300
       </div>
       <div className={'chat'}>
         <div className='box1'>수업 들어가기</div>
