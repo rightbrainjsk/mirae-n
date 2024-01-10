@@ -25,8 +25,8 @@ function App() {
     <>
       <div className='w1920'></div>
       <div className='data'>
-        <p>window.width : {windowDimensions.width}</p>
-        <p>window.height : {windowDimensions.height}</p>
+        <p><span>window.width : {windowDimensions.width}</span></p>
+        <p><span>window.height : {windowDimensions.height}</span></p>
       </div>
       <div className='wrap'>
         1280px
@@ -38,6 +38,8 @@ function App() {
         <div className='box1'>수업 들어가기</div>
         <p className='box2'>챗봇</p>
       </div>
+
+
     </>
   )
 }
